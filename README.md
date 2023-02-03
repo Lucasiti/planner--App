@@ -5,8 +5,11 @@ The day is split into hourly segments of the standard working day where tasks ca
 
 Each hourly block is colour coded depending on the time. Grey for hours in the past, red for the current hour and green for the future.
 
-The user can enter a task when they click a timeblock.
+The user can enter a task when they click a timeblock and their entry is saved in local storage so the information remains after refreshing the page.
 
-Save the event in local storage when the save button is clicked in that timeblock.
+See the live site
+https://lucasiti.github.io/planner--App/
 
-Persist events between refreshes of a page.
+See the code
+https://github.com/Lucasiti/planner--App
+
