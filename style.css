@@ -21,17 +21,17 @@ textarea {
   border-bottom: 10px solid black;
 }
 
-.description {
+ .description {
   white-space: pre-wrap;
-}
+} 
 
 .time-block {
-  text-align: center;
-  border-radius: 15px;
+  /*text-align: center;*/
+  color: #000000;
 }
 
 .row {
-  white-space: pre-wrap;
+  /* white-space: pre-wrap; */
   height: 80px;
   border-top: 1px solid white;
 }
@@ -44,25 +44,28 @@ textarea {
 
 .past {
   background-color: #d3d3d3;
-  color: white;
+  color: rgb(74, 73, 73);
 }
 
 .present {
   background-color: #ff6961;
-  color: white;
+  color: black;
+  font-weight: bolder;
 }
 
 .future {
   background-color: #77dd77;
-  color: white;
+  color: black;
+  font-weight: bold;
 }
 
 .saveBtn {
-  border-left: 1px solid pink;
+  border-left: 1px solid rgb(192, 255, 218);
   /*border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;*/
-  background-color: pink;
+  background-color: rgb(192, 255, 218);
   color: black;
+  background-image: image("./img/save-icon.png");
 }
 
 .clearBtn {
