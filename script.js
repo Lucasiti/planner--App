@@ -22,18 +22,16 @@ var saveBtn = document.querySelectorAll("#saveBtn");
   localStorage.setItem(time, task);
   localStorage.getItem(task);
 
-// clear individual items from local storage and screen without refreshing
+// intention was to clear all items from local storage and screen without refreshing
 
-// currently just clears everything from local storage
+// this currently just clears everything from local storage
   let clearBtn = document.querySelectorAll("#clearBtn");
-  $(clearBtn).click(function() {
+ var clear = $(clearBtn).click(function() {
     localStorage.removeItem(time, task);
   })
   
 
 });
-
-
 
 
 // colour coded block for past, present, future
@@ -57,7 +55,11 @@ timeBlockColor();
 
 
 
-
+function clearInput(target){
+  if (target.value== 'clear input'){
+      target.value= "";
+ }
+}
 
 
 // end of document.ready function
