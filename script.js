@@ -23,6 +23,8 @@ var saveBtn = document.querySelectorAll("#saveBtn");
   localStorage.getItem(task);
 
 // clear individual items from local storage and screen without refreshing
+
+// currently just clears everything from local storage
   let clearBtn = document.querySelectorAll("#clearBtn");
   $(clearBtn).click(function() {
     localStorage.removeItem(time, task);
